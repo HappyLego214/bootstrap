@@ -1,0 +1,33 @@
+div {
+    border: 0px solid black;
+}
+
+.main-container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr;
+    margin: 15px;
+    gap: 100px;
+}
+
+.form-container {
+    height: 350px;
+    width: 500px;
+}
+
+.form-control.validEntry {
+    background-color: lightgreen;
+
+}
+
+.form-control.invalidEntry {
+    background-color: lightpink;
+}
+
+.form-control.invalidEntry:focus {
+    background-color: white;
+}
+
+.form-control.form-control.validEntry:focus {
+    background-color: white;
+}
